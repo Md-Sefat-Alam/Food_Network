@@ -38,15 +38,12 @@ nav .menu ul{
 }
 nav .menu ul a{
     text-decoration: none;
-    border-right: 1px solid rgb(116, 106, 106);
     border-left: 1px solid #454648;
     padding: 0px 15px;
     color:#454648;
     line-height: 40px;
     margin-top: -16px;
     font-weight: bold;
-}
-nav .menu ul li{
 }
 nav .menu ul a:hover{
     background-color: orange;
@@ -75,7 +72,7 @@ nav .search_item input{
 }
 nav .search_item a{
     text-decoration: none;
-    color: #454648;
+    color: #707681;
 }
 nav .search_item a:hover{
     color: white;
@@ -109,7 +106,7 @@ nav .search_item a:hover{
 /* try to FOOD NETWORK logo by css */
 #section1 .left_side span{
     font-size: 55px;
-    color: #FB994C;
+    color: orange;
 }
 #section1 .left_side span span{
     color: #454648;
@@ -230,10 +227,6 @@ nav .search_item a:hover{
 
 
 /* start section4 population */
-
-#section4{
-
-}
 #section4 .section4_wrap{
     display: flex;
     width: 60%;
@@ -288,5 +281,6 @@ footer h1{
 }
 footer p{
     color: #668194;
+    font-size: 14px;
 }
 /* end footer part */
