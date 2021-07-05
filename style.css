@@ -1,0 +1,48 @@
+body{
+    margin: 0px; /* for remove all others margin*/
+    /* font-family: 'Teko', sans-serif;  */
+    font-family: 'Poppins', sans-serif;/*google font*/
+}
+
+/* start css for section1 */
+.section_wrap{
+    display: flex;
+    margin:70px 0px;
+}
+#section1 .left_side{
+    width: 50%;
+    padding-left: 7%;
+    padding-top: 100px;
+}
+#section1 .left_side h1{
+    font-size: 55px;
+    color: rgb(12, 12, 12);
+    line-height: 50px;
+}
+#section1 .left_side span{
+    font-size: 70px;
+    color: orange;
+}
+#section1 .left_side p{
+    color: gray;
+    text-align: justify;
+}
+.button {           /*it's will use every button class*/
+    text-decoration: none;
+    background-image: linear-gradient(orange, yellow);
+    padding:10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.button:hover{           /*it's will use every button class*/
+   background-image: linear-gradient(yellow, orange);
+}
+
+#section1 .right_side{
+    width: 50%;
+    text-align: center;
+}
+#section1 .right_side img{
+    width: 80%;
+}
