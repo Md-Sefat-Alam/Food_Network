@@ -3,6 +3,86 @@ body{
     /* font-family: 'Teko', sans-serif;  */
     font-family: 'Poppins', sans-serif;/*google font*/
 }
+a{
+    text-decoration: none;
+}
+
+/* start css for nav bar */
+nav{
+    display: flex;
+    height: 40px;
+    background-color: #0B0D17;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+.logo{
+    width: 30%;
+}
+.logo h1{
+    color: #FB994C;
+    line-height: 5px;
+    padding:0px 10px;
+}
+.logo h1 span{
+    color: #454648;
+}
+
+nav .menu{
+    width: 40%;
+    text-align: center;
+}
+nav .menu ul{
+    list-style-type: none;
+    display: flex;
+}
+nav .menu ul a{
+    text-decoration: none;
+    border-right: 1px solid rgb(116, 106, 106);
+    border-left: 1px solid #454648;
+    padding: 0px 15px;
+    color:#454648;
+    line-height: 40px;
+    margin-top: -16px;
+    font-weight: bold;
+}
+nav .menu ul li{
+}
+nav .menu ul a:hover{
+    background-color: orange;
+    color: white;
+}
+nav .menu ul a:last-child{
+    border-right: none;
+}
+nav .menu ul a:first-child{
+    border-left: none;
+}
+
+nav .search_item{
+    width: 30%;
+    text-align: right;
+    margin-right: 3%;
+    
+}
+nav .search_item input{
+    margin-top: 6px;
+    padding: 5px;
+    border: 1px solid #454648;
+    border-radius: 5px;
+    background-color: #0B0D17;
+    color: white;
+}
+nav .search_item a{
+    text-decoration: none;
+    color: #454648;
+}
+nav .search_item a:hover{
+    color: white;
+}
+/* end css for nav bar */
+
+
 
 /* start css for section1 */
 .section_wrap{
@@ -18,17 +98,20 @@ body{
 
 #section1 .left_side h1{
     font-size: 55px;
-    color: rgb(211, 209, 204);
+    color: rgb(161, 159, 152);
     line-height: 50px;
 }
 
+
+
+
+
 /* try to FOOD NETWORK logo by css */
 #section1 .left_side span{
-    font-size: 70px;
+    font-size: 55px;
     color: #FB994C;
 }
 #section1 .left_side span span{
-    font-size: 70px;
     color: #454648;
 }
 /* end try to FOOD NETWORK logo by css */
@@ -162,13 +245,25 @@ body{
     box-shadow: 0px 0px 20px 0px gray;
     border-radius: 15px;
 }
+#section4 .section4_wrap h1{
+    color: gray;
+    margin-top:-20px;
+    margin-left: -70px;
+}
 #section4 .section4_wrap .population_text{
     width: 30%;
+}
+#section4 .section4_wrap .population_text a{
+    text-decoration: none;
+}
+#section4 .section4_wrap .population_text a:hover{
+    text-decoration: underline;
 }
 #section4 .section4_wrap .population_text p{
     font-weight: 900;
     font-size: 40px;
     line-height: 0px;
+    color: gray;
 }
 #section4 .section4_wrap .population_text span{
     color: gray;
@@ -194,6 +289,4 @@ footer h1{
 footer p{
     color: #668194;
 }
-
-
 /* end footer part */
