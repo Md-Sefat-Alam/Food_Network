@@ -30,6 +30,7 @@ body{
 .button {           /*it's will use every button class*/
     text-decoration: none;
     background-image: linear-gradient(orange, yellow);
+    box-shadow: 1px 1px 40px 1px orange;
     padding:10px 20px;
     border-radius: 5px;
     color: white;
@@ -46,3 +47,42 @@ body{
 #section1 .right_side img{
     width: 80%;
 }
+/* end section1 css */
+
+/* start section2 css */
+
+#section2{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section2 .left_side{
+    width: 50%;
+    text-align: center;
+}
+#section2 .left_side img{
+    width: 50%;
+    margin: 70px 0px -4px 0px;
+}
+#section2 .right_side{
+    width: 50%;
+    margin: 180px 0px 0px 0px;
+}
+#all_head_css{
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(105, 99, 99);
+}
+
+#section2 .right_side p{
+    width: 70%;
+    font-size: 19px;
+    text-align: justify;
+    color: rgb(22, 22, 22);
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+
+/* end section2 css */
