@@ -12,20 +12,32 @@ body{
 #section1 .left_side{
     width: 50%;
     padding-left: 7%;
-    padding-top: 100px;
+    padding-top: 80px;
 }
+
+
 #section1 .left_side h1{
     font-size: 55px;
-    color: rgb(12, 12, 12);
+    color: rgb(211, 209, 204);
     line-height: 50px;
 }
+
+/* try to FOOD NETWORK logo by css */
 #section1 .left_side span{
     font-size: 70px;
-    color: orange;
+    color: #FB994C;
 }
+#section1 .left_side span span{
+    font-size: 70px;
+    color: #454648;
+}
+/* end try to FOOD NETWORK logo by css */
+
+
 #section1 .left_side p{
     color: gray;
     text-align: justify;
+    padding-bottom: 15px;
 }
 .button {           /*it's will use every button class*/
     text-decoration: none;
@@ -79,9 +91,9 @@ body{
     width: 70%;
     font-size: 19px;
     text-align: justify;
-    color: rgb(22, 22, 22);
-    line-height: 30px;
+    color: rgb(100, 97, 97);
     margin-bottom: 50px;
+    font-weight: 200;
 }
 
 /* end section2 css */
@@ -120,6 +132,17 @@ body{
     color: rgb(65, 58, 58);
 }
 
+#section3 .food_order_card span{
+    color: green;
+    font-weight: bold;
+    display:block;
+    text-align: right;
+    margin-top: -20px;
+}
+#section3 .food_order_card del{
+    color: red;
+    font-weight: bold;
+}
 /* end section3 food card / our recipies */
 
 
